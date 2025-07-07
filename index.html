@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- fontawsome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Tradição Vidros</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg " style="background-color: transparent;">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <i data-lucide="glasses" class="me-2" style="color: #fbbf24;"></i>
+                    Tradição Vidros
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="hero-content text-center">
+                            <h1 class="hero-title">
+                                <span style="color: #fbbf24;">Tradição</span> em Vidros
+                            </h1>
+                            <p class="hero-subtitle">
+                                Há mais de 20 anos transformando ambientes com qualidade, segurança e inovação em
+                                soluções em vidro.
+                            </p>
+                            <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+                                <button class="btn btn-primary-custom" onclick="scrollToSection('contact')">
+                                    Solicitar Orçamento
+                                </button>
+                                <button class="btn btn-outline-custom" onclick="scrollToSection('services')">
+                                    Nossos Serviços
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-5" style="background-color: #f9fafb;">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-title">
+                            Sobre a <span style="color: #fbbf24;">Tradição Vidros</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Uma empresa familiar dedicada a entregar soluções em vidro com excelência e confiabilidade.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-6 info-about">
+                        <h3 class="h2 mb-4">Nossa História</h3>
+                        <p class="mb-4 text-abolt">
+                            Fundada em 2003, a Tradição Vidros nasceu do sonho de oferecer soluções em vidro de alta
+                            qualidade
+                            com atendimento personalizado. Ao longo dos anos, crescemos e nos tornamos referência na
+                            região.
+                        </p>
+                        <p class="mb-5 text-abolt">
+                            Nossa equipe especializada combina tradição familiar com as mais modernas técnicas do
+                            mercado,
+                            garantindo resultados que superam as expectativas dos nossos clientes.
+                        </p>
+
+                        <div class="row info-highlights">
+                            <div class="col-6">
+                                <div class="stats-card">
+                                    <div class="stats-icon icon-yellow">
+                                        <i class="fa-solid fa-user-group" style="color: #fbbf24;"></i>
+                                    </div>
+                                    <div class="stats-number">500+</div>
+                                    <p class="mb-0">Clientes Satisfeitos</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stats-card">
+                                    <div class="stats-icon icon-blue">
+                                        <i class="fa-solid fa-award" style="color: #4872ce;"></i>
+                                    </div>
+                                    <div class="stats-number">20+</div>
+                                    <p class="mb-0">Anos de Experiência</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 info-highlights-left">
+                        <div class="about-card">
+                            <i class="fa-solid fa-shield" style="color:#e26a6a;"></i>
+                            <h4 class="h5 mb-3">Segurança</h4>
+                            <p class="mb-0">
+                                Todos os nossos produtos seguem rigorosos padrões de segurança e qualidade.
+                            </p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fa-solid fa-clock" style="color: #84a0db;"></i>
+                            <h4 class="h5 mb-3">Pontualidade</h4>
+                            <p class="mb-0">
+                                Cumprimos prazos com rigor, respeitando o tempo e a confiança dos nossos clientes.
+                            </p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fa-solid fa-star" style="color:#fbbf24 ;"></i>
+                            <h4 class="h5 mb-3">Qualidade</h4>
+                            <p class="mb-0">
+                                Utilizamos apenas materiais de primeira qualidade e técnicas avançadas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section>
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-title">
+                            Nossos <span style="color: #fbbf24;">Serviços</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Oferecemos uma ampla gama de serviços em vidro para atender às suas necessidades.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <i class="fa-solid fa-window-maximize" style="color: #fbbf24;"></i>
+                            <h3>Instalação de Janelas</h3>
+                            <p>Instalação profissional de janelas de vidro temperado e laminado.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <i class="fa-solid fa-shower" style="color: #fbbf24;"></i>
+                            <h3>Box para Banheiro</h3>
+                            <p>Box de vidro sob medida para banheiros, com design moderno e funcional.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <i class="fa-solid fa-tablet-screen-button" style="color: #fbbf24;"></i>
+                            <h3>Divisórias de Vidro</h3>
+                            <p>Divisórias de vidro para ambientes comerciais e residenciais.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
