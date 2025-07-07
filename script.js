@@ -1,10 +1,13 @@
 //colocar um background no header apos 50px de scroll
 window.addEventListener('scroll', function() {
     const header = document.querySelector('.header');
+    const lineRedHeader = document.querySelector('.line-red-header');
     if (window.scrollY > 200) {
         header.classList.add('scrolled');
+        lineRedHeader.classList.add('active');
     } else {
         header.classList.remove('scrolled');
+        lineRedHeader.classList.remove('active');
     }
 });
 
@@ -22,3 +25,4 @@ navbarToggler.addEventListener('click', function() {
         navbarCollapse.classList.add('show');
     }
 });
+
