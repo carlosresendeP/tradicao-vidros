@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -153,7 +154,7 @@ body {
 .hero-content {
     position: relative;
     z-index: 2;
-
+    max-width: 800px;
 }
 
 .hero-title {
@@ -241,12 +242,28 @@ body {
     transform: rotate(6deg);
     background: linear-gradient(135deg, #fffbbc 0%, #fcf6be 100%);
     border-radius: 12px;
+    filter: blur(10px);
 }
 
+.impact-text{
+    width: 80%;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+    margin-top: 30px;
+}
 
-
-
-
+.impact-text li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: var(--light-gray);
+    font-size: 20px;
+}
+.impact-text li i{
+    color:#22c55e
+}
 /*about section*/
 .info-about {
     display: flex;
