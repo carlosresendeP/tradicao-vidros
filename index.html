@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
 
     <!-- bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
@@ -50,7 +52,7 @@
                             <a class="nav-link" href="#services">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#products">Produtos</a>
+                            <a class="nav-link" href="#portfolio">Portifólio</a>
                         </li>
                         <li class="nav-item number-tel">
                             <a class="nav-link number-tel" href="#contact">(18)99631-9176</a>
@@ -94,6 +96,27 @@
                             <li> <i class="fa-solid fa-circle-check"></i>Segurança</li>
                             <li> <i class="fa-solid fa-circle-check"></i>Estilo</li>
                         </ul>
+
+                        <div class="row info-highlights">
+                            <div class="col-6">
+                                <div class="stats-card">
+                                    <div class="stats-icon icon-yellow">
+                                        <i class="fa-solid fa-user-group" style="color: #fbbf24;"></i>
+                                    </div>
+                                    <div class="stats-number">5000+</div>
+                                    <p class="mb-0">Clientes Satisfeitos</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stats-card">
+                                    <div class="stats-icon icon-blue">
+                                        <i class="fa-solid fa-calendar" style="color: #4872ce;"></i>
+                                    </div>
+                                    <div class="stats-number">30+</div>
+                                    <p class="mb-0">Anos de Experiência</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="hero-image">
@@ -153,43 +176,10 @@
 
                         </div>
 
-                        <div class="row info-highlights">
-                            <div class="col-6">
-                                <div class="stats-card">
-                                    <div class="stats-icon icon-yellow">
-                                        <i class="fa-solid fa-user-group" style="color: #fbbf24;"></i>
-                                    </div>
-                                    <div class="stats-number">5000+</div>
-                                    <p class="mb-0">Clientes Satisfeitos</p>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="stats-card">
-                                    <div class="stats-icon icon-blue">
-                                        <i class="fa-solid fa-calendar" style="color: #4872ce;"></i>
-                                    </div>
-                                    <div class="stats-number">30+</div>
-                                    <p class="mb-0">Anos de Experiência</p>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
 
                     <div class="col-lg-6 info-highlights-left">
-                        <div class="about-card">
-                            <i class="fa-solid fa-shield" style="color:#e26a6a;"></i>
-                            <h4 class="h5 mb-3">Segurança</h4>
-                            <p class="mb-0">
-                                Todos os nossos produtos seguem rigorosos padrões de segurança e qualidade.
-                            </p>
-                        </div>
-                        <div class="about-card">
-                            <i class="fa-solid fa-clock" style="color: #84a0db;"></i>
-                            <h4 class="h5 mb-3">Pontualidade</h4>
-                            <p class="mb-0">
-                                Cumprimos prazos com rigor, respeitando o tempo e a confiança dos nossos clientes.
-                            </p>
-                        </div>
                         <div class="about-card">
                             <i class="fa-solid fa-star" style="color:#fbbf24 ;"></i>
                             <h4 class="h5 mb-3">Qualidade</h4>
@@ -197,12 +187,28 @@
                                 Utilizamos apenas materiais de primeira qualidade e técnicas avançadas.
                             </p>
                         </div>
+                        <div class="about-card">
+                            <i class="fa-solid fa-shield" style="color:#e26a6a;"></i>
+                            <h4 class="h5 mb-3">Segurança</h4>
+                            <p class="mb-0">
+                                Todos os nossos produtos seguem rigorosos padrões de segurança e qualidade.
+                            </p>
+                        </div>
+
+                        <div class="about-card">
+                            <i class="fa-solid fa-clock" style="color: #84a0db;"></i>
+                            <h4 class="h5 mb-3">Pontualidade</h4>
+                            <p class="mb-0">
+                                Cumprimos prazos com rigor, respeitando o tempo e a confiança dos nossos clientes.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section>
+        <!-- serviços -->
+        <section id="services" class="py-5">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-lg-8 mx-auto text-center">
@@ -210,38 +216,204 @@
                             Nossos <span style="color: #fbbf24;">Serviços</span>
                         </h2>
                         <p class="section-subtitle">
-                            Oferecemos uma ampla gama de serviços em vidro para atender às suas necessidades.
+                            Oferecemos uma ampla gama de serviços em vidro para atender todas as suas necessidades.
                         </p>
                     </div>
                 </div>
 
-                <div class="row g-4">
-                    <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
                         <div class="service-card">
-                            <i class="fa-solid fa-window-maximize" style="color: #fbbf24;"></i>
-                            <h3>Instalação de Janelas</h3>
-                            <p>Instalação profissional de janelas de vidro temperado e laminado.</p>
+                            <img src="https://www.logicadomercado.com.br/wp-content/uploads/2024/09/vidro-temperado-1.jpg"
+                                alt="">
+                            <h3>Vidros Temperados</h3>
+                            <p>Resistentes e seguros, ideais para janelas, portas e divisórias.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                         <div class="service-card">
-                            <i class="fa-solid fa-shower" style="color: #fbbf24;"></i>
+                            <img src="https://images.tcdn.com.br/img/img_prod/483555/espelho_decorativo_lapidado_oval_60x150cm_3959_1_ada942de09adab02f7b3c6b68f523d29.jpg"
+                                alt="">
+                            <h3>Espelhos</h3>
+                            <p>Espelhos comuns e modernos com led, perfeitos para qualquer ambiente.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="service-card">
+                            <img src="https://cdn.awsli.com.br/300x300/365/365778/produto/25116372/44901f853e.jpg"
+                                alt="">
                             <h3>Box para Banheiro</h3>
-                            <p>Box de vidro sob medida para banheiros, com design moderno e funcional.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-card">
-                            <i class="fa-solid fa-tablet-screen-button" style="color: #fbbf24;"></i>
-                            <h3>Divisórias de Vidro</h3>
-                            <p>Divisórias de vidro para ambientes comerciais e residenciais.</p>
+                            <p>Box de vidro temperado com design elegante e funcional.</p>
                         </div>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="service-card">
+                            <img src="https://www.blueglass.com.br/uploads/editor/872b96e179cf3b3d41348e410a5cd014.jpg"
+                                alt="">
+                            <h3>Portas de Vidro</h3>
+                            <p>Portas de vidro personalizadas para residências e empresas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="service-card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1V8VNJ9nTDG53eK-njo0I0ol2XoETRHX5gA&s"
+                                alt="">
+                            <h3>Divisórias de Vidro</h3>
+                            <p>Soluções
+                                em vidro para criar ambientes integrados e modernos.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section> -->
+        </section>
 
+        <!-- Portifolio -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-title">
+                            Nosso <span style="color: #fbbf24;">Portifolio</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Conheça nossos Portifolio de produtos e serviços em vidro.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row portfolio-gallery">
+                    <ul class="portfolio-list">
+                        <li>
+                            <img src="https://sevexclusivv.com.br/wp-content/uploads/2021/09/fachada-de-vidro-11-sev.png"
+                                alt="imagem-1">
+                        </li>
+                        <li>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR99T7Gwo2cT_lKxRPAAjloZ25TW6GtWRg6zw&s"
+                                alt="imagem-2">
+                        </li>
+                        <li>
+                            <img src="https://sanglass.com.br/wp-content/uploads/2023/09/muro.jpg" alt="imagem-3">
+                        </li>
+                        <li>
+                            <img src="https://lirp.cdn-website.com/0d6664c9/dms3rep/multi/opt/DIVINAL+BLOG+E+PINTEREST-12+%281%29-640w.png"
+                                alt="imagem-4">
+                        </li>
+                        <li>
+                            <img src="https://vidros.realvidrosbox.com.br/imagens/fachada-pele-de-vidro-residencial.png"
+                                alt="imagem-5">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact and loaction -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-title">
+                            Entre em <span style="color: #fbbf24;">Contato</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Estamos aqui para ajudar! Entre em contato conosco para mais informações ou para solicitar
+                            um
+                            orçamento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3> Nossa Localização</h3>
+                        <p> <i class="fa-solid fa-location-dot"></i>Av. Afife José Abdo, 902 - Portal da Perola 2,
+                            Birigui - SP</p>
+                        <p><i class="fa-solid fa-phone"></i>Telefone: (18) 99631-9176</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email:
+                            tradiçãovidros@gmail.com
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/tradicaovidros" target="_blank" class="social-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/tradicao_vidros_bgi?igsh=aDVhanJoaG8wbzZi"
+                                target="_blank" class="social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/tradicaovidros/" target="_blank"
+                                class="social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Google Maps Embed -->
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7436.968866651844!2d-50.31719226803707!3d-21.252283621990692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949615523465bd13%3A0x8bc7f227566d6792!2zVFJBREnDh8ODTyBWSURST1M!5e0!3m2!1spt-BR!2sbr!4v1752527960631!5m2!1spt-BR!2sbr"
+                            width="640" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Tradição Vidros</h3>
+                    <p>Há mais de 30 nos transformando ambientes com qualidade, segurança e inovação em soluções em vidro.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/tradicaovidros" target="_blank" class="social-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/tradicao_vidros_bgi?igsh=aDVhanJoaG8wbzZi"
+                                target="_blank" class="social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/tradicaovidros/" target="_blank"
+                                class="social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+
+                        </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#projetos">Portifolio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#">Vidros Temperados</a></li>
+                        <li><a href="#">Espelhos</a></li>
+                        <li><a href="#">Box para Banheiro</a></li>
+                        <li><a href="#">Portas de Vidro</a></li>
+                        <li><a href="#">Divisórias de Vidro</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tradição Vidros. Todos os direitos reservados.</p>
+                <p>Desenvolvido por <a href="devcarlosresende.com.br" target="_blank">Carlos Resende</a></p>
+            </div>
+        </div>
+    </footer>
 
     </main>
 
